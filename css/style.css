@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header h1{
+    width:100%;
+    font-family: 'Permanent Marker', cursive;
+    font-size:3rem;
+    text-align:center;
+    padding: 20px 0;
+    background:#000;
+}
+
+#rock, #paper, #scissor{
+    margin: 0 20px;
+    letter-spacing: 2px;
+}
+
+#rock{
+    color:brown;
+}
+
+#paper{
+    color:lightblue;
+}
+
+#scissor{
+    color:grey;
+}
+
+.scores{
+    width:10rem;
+    padding: 20px;
+    margin: 3rem auto;
+    border : 2px solid black;
+    text-align:center;
+    font-size:1.5rem;
+    position:relative;
+}
+
+#user, #comp{
+    position:absolute;
+    width:60px;
+    font-size:1rem;
+    background:red;
+    padding: 2px 0;
+    color:#fff;
+    letter-spacing: 1px;
+}
+
+#user{
+    top:50%;
+    transform:translateY(-50%);
+    left:-40px;
+}
+
+#comp{
+    top:50%;
+    transform:translateY(-50%);
+    right:-40px;
+}
+
+.messages{
+    font-family: 'Righteous', cursive;
+    text-align:center;
+    font-size:2rem;
+}
+
+.moves{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 40px 50px;
+}
+.move{
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    border: 2px solid #000;
+    box-shadow: 0 0 30px #000;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+img{
+    width:100%;
+    margin: auto auto;
+}
+
+.msg2 h2{
+    text-align:center;
+    font-size:2.5rem;
+}
+
+.again{
+    text-align:center;
+    display:none;
+}
+
+.again button{
+    padding:20px 50px;
+    cursor:pointer;
+    background:blue;
+    outline: none;
+    border:none;
+    color:#fff;
+    font-family: calibri;
+    font-weight:bold;
+    font-size:1rem;
+    letter-spacing:0.1rem;
+}
+
+.red{
+    border: 2px solid red;
+    box-shadow: 0 0 30px red;
+}
+
+.green{
+    border: 2px solid green;
+    box-shadow: 0 0 30px green;
+}
+
+.grey{
+    border: 2px solid grey;
+    box-shadow: 0 0 30px grey;
+}
